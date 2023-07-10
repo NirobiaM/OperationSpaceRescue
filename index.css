@@ -1,0 +1,70 @@
+* {
+  box-sizing: border-box;
+}
+
+html, body {
+  height: 100%;
+}
+
+body{
+  background-image: url("https://starwalk.space/gallery/images/what-is-space/1920x1080.jpg");
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  margin: 0;
+} 
+
+#wrapper {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.title{
+    color: white;
+    font-family: arial;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .game-container{
+    flex-grow: 1;
+    border: transparent;
+    display: flex;
+    justify-content: space-between;
+
+    border: 3px solid yellow;
+  }
+  
+  .ship-data {
+    background-color: black;
+    color: white;
+    padding: 1rem;
+    border-radius: .5rem;
+  }
+
+  /*
+      _rem      n * html font size
+      _em       n * parent element's font size
+  */
+
+  #start{
+    background-color:aquamarine;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    display: flex;
+    cursor:pointer;
+    border: 1px solid teal;
+    padding: .5rem;
+  }
+
+  .alien {
+    display: inline-block;
+  }
+
+  .alien-hp {
+    background-color: navy;
+    color: yellow;
+  }
+
+footer {
+    display:flex;
+    align-items:end;
+  }
